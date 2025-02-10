@@ -1,0 +1,3 @@
+logging to /home/uav1/viobot_ws/logfiles/log/7ee11982-a4af-11ef-8481-e051d8116dff/rosout.log
+re-publishing aggregated messages to /rosout_agg
+subscribed to /rosout

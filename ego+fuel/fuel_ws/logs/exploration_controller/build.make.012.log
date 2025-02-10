@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target exploration_controller[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/exploration_controller.dir/src/DataManager/data_ros_output.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable /home/uav1/fuel_ws/devel/.private/exploration_controller/lib/exploration_controller/exploration_controller[0m
+[100%] Built target exploration_controller

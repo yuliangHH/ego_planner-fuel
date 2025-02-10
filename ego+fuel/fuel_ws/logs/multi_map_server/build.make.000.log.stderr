@@ -1,0 +1,7 @@
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/uav_simulator/Utils/multi_map_server/src/multi_map_visualization.cc:5:10:[m[K [01;31m[Kfatal error: [m[Kmulti_map_server/MultiOccupancyGrid.h: 没有那个文件或目录
+ #include [01;31m[K<multi_map_server/MultiOccupancyGrid.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/multi_map_visualization.dir/src/multi_map_visualization.cc.o] Error 1
+make[1]: *** [CMakeFiles/multi_map_visualization.dir/all] Error 2
+make: *** [all] Error 2

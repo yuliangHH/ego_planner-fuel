@@ -1,0 +1,4 @@
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/bspline/src/non_uniform_bspline.cpp:[m[K In member function ‘[01m[Kbool fast_planner::NonUniformBspline::checkFeasibility(bool)[m[K’:
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/bspline/src/non_uniform_bspline.cpp:484:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kratio[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   double [01;35m[Kratio[m[K = max(max_vel / limit_vel_, sqrt(fabs(max_acc) / limit_acc_));
+          [01;35m[K^~~~~[m[K

@@ -1,0 +1,61 @@
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/exploration_manager/src/fast_exploration_fsm.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::FastExplorationFSM::FSMCallback(const ros::TimerEvent&)[m[K’:
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/exploration_manager/src/fast_exploration_fsm.cpp:163:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt_cur[m[K’ [[01;35m[K-Wunused-variable[m[K]
+       double [01;35m[Kt_cur[m[K = (ros::Time::now() - info->start_time_).toSec();
+              [01;35m[K^~~~~[m[K
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/exploration_manager/src/fast_exploration_fsm.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::FastExplorationFSM::visualize()[m[K’:
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/exploration_manager/src/fast_exploration_fsm.cpp:261:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < ed_ptr->frontiers_.size()[m[K; ++i) {
+                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/exploration_manager/src/fast_exploration_fsm.cpp:250:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kplan_data[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   auto [01;35m[Kplan_data[m[K = &planner_manager_->plan_data_;
+        [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/exploration_manager/src/fast_exploration_fsm.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::FastExplorationFSM::frontierCallback(const ros::TimerEvent&)[m[K’:
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/exploration_manager/src/fast_exploration_fsm.cpp:357:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for (int i = 0; [01;35m[Ki < ed->frontiers_.size()[m[K; ++i) {
+                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/exploration_manager/test/load_obj.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/exploration_manager/test/load_obj.cpp:25:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < cloud.points.size()[m[K; ++i) {
+                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/exploration_manager/src/fast_exploration_manager.cpp:[m[K In member function ‘[01m[Kint fast_planner::FastExplorationManager::planExploreMotion(const Vector3d&, const Vector3d&, const Vector3d&, const Vector3d&)[m[K’:
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/exploration_manager/src/fast_exploration_manager.cpp:115:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < ed_->points_.size()[m[K; ++i)
+                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/exploration_manager/src/fast_exploration_manager.cpp:163:25:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+       for (int i = 0; [01;35m[Ki < ed_->refined_points_.size()[m[K; ++i) {
+                       [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/exploration_manager/src/fast_exploration_manager.cpp:170:25:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+       for (int i = 0; [01;35m[Ki < ed_->refined_points_.size()[m[K; ++i) {
+                       [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/exploration_manager/src/fast_exploration_manager.cpp:204:25:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+       for (int i = 0; [01;35m[Ki < ed_->n_points_[0].size()[m[K; ++i) {
+                       [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/exploration_manager/src/fast_exploration_manager.cpp:256:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for (int i = 1; [01;35m[Ki < ed_->path_next_goal_.size()[m[K && len2 < radius_far; ++i) {
+                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/exploration_manager/src/fast_exploration_manager.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::FastExplorationManager::shortenPath(std::vector<Eigen::Matrix<double, 3, 1> >&)[m[K’:
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/exploration_manager/src/fast_exploration_manager.cpp:302:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 1; [01;35m[Ki < path.size() - 1[m[K; ++i) {
+                   [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/exploration_manager/src/fast_exploration_manager.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::FastExplorationManager::refineLocalTour(const Vector3d&, const Vector3d&, const Vector3d&, const std::vector<std::vector<Eigen::Matrix<double, 3, 1> > >&, const std::vector<std::vector<double> >&, std::vector<Eigen::Matrix<double, 3, 1> >&, std::vector<double>&)[m[K’:
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/exploration_manager/src/fast_exploration_manager.cpp:448:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < n_points.size()[m[K; ++i) {
+                   [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/exploration_manager/src/fast_exploration_manager.cpp:450:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for (int j = 0; [01;35m[Kj < n_points[i].size()[m[K; ++j) {
+                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/exploration_manager/src/fast_exploration_manager.cpp:459:13:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+       if ([01;35m[Ki == n_points.size() - 1[m[K) {
+           [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/exploration_manager/src/fast_exploration_manager.cpp:481:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 1; [01;35m[Ki < path.size()[m[K; ++i) {
+                   [01;35m[K~~^~~~~~~~~~~~~[m[K
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/exploration_manager/src/fast_exploration_manager.cpp:432:10:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kcreate_time[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   double [01;35m[Kcreate_time[m[K, search_time, parse_time;
+          [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/exploration_manager/src/fast_exploration_manager.cpp:432:23:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Ksearch_time[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   double create_time, [01;35m[Ksearch_time[m[K, parse_time;
+                       [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/exploration_manager/src/fast_exploration_manager.cpp:432:36:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kparse_time[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+   double create_time, search_time, [01;35m[Kparse_time[m[K;
+                                    [01;35m[K^~~~~~~~~~[m[K

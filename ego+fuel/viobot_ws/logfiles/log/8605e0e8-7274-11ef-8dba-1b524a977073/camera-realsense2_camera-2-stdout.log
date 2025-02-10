@@ -1,0 +1,2 @@
+[0m[ INFO] [1736299254.748776076]: Loading nodelet /camera/realsense2_camera of type realsense2_camera/RealSenseNodeFactory to manager realsense2_camera_manager with the following remappings:[0m
+[0m[ INFO] [1736299606.407774560]: Unloading nodelet /camera/realsense2_camera from manager realsense2_camera_manager[0m

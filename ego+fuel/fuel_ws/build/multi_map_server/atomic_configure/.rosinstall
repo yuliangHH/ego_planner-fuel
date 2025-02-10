@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/uav1/fuel_ws/devel/.private/multi_map_server/setup.sh

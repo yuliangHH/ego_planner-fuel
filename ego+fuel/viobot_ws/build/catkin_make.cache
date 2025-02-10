@@ -1,0 +1,2 @@
+msg/loop_action:msg/sensor_pub:msg/system_ctrl:vins_to_mavros
+-DCATKIN_DEVEL_PREFIX=/home/uav1/viobot_ws/devel -DCMAKE_INSTALL_PREFIX=/home/uav1/viobot_ws/install -G Unix Makefiles

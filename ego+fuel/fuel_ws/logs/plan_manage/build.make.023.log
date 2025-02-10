@@ -1,0 +1,8 @@
+[ 12%] Built target traj_server
+[ 31%] Built target plan_manage
+[ 43%] Built target proc_msg2
+[35m[1mScanning dependencies of target fast_planner_node[0m
+[ 56%] Built target proc_msg
+[ 62%] [32mBuilding CXX object CMakeFiles/fast_planner_node.dir/src/fast_planner_node.cpp.o[0m
+[ 68%] [32m[1mLinking CXX executable /home/uav1/fuel_ws/devel/.private/plan_manage/lib/plan_manage/fast_planner_node[0m
+[100%] Built target fast_planner_node

@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/uav1/fuel_ws/build/so3_quadrotor_simulator/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_621e3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_621e3.dir/build.make CMakeFiles/cmTC_621e3.dir/build
+make[1]: 进入目录“/home/uav1/fuel_ws/build/so3_quadrotor_simulator/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_621e3.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_621e3.dir/CheckSymbolExists.c.o   -c /home/uav1/fuel_ws/build/so3_quadrotor_simulator/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_621e3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_621e3.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_621e3.dir/CheckSymbolExists.c.o  -o cmTC_621e3 
+CMakeFiles/cmTC_621e3.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x1b)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_621e3.dir/build.make:97: recipe for target 'cmTC_621e3' failed
+make[1]: *** [cmTC_621e3] Error 1
+make[1]: 离开目录“/home/uav1/fuel_ws/build/so3_quadrotor_simulator/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_621e3/fast' failed
+make: *** [cmTC_621e3/fast] Error 2
+
+File /home/uav1/fuel_ws/build/so3_quadrotor_simulator/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/uav1/fuel_ws/build/so3_quadrotor_simulator/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_69809/fast"
+/usr/bin/make -f CMakeFiles/cmTC_69809.dir/build.make CMakeFiles/cmTC_69809.dir/build
+make[1]: 进入目录“/home/uav1/fuel_ws/build/so3_quadrotor_simulator/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_69809.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_69809.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_69809
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69809.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_69809.dir/CheckFunctionExists.c.o  -o cmTC_69809 -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_69809.dir/build.make:97: recipe for target 'cmTC_69809' failed
+make[1]: *** [cmTC_69809] Error 1
+make[1]: 离开目录“/home/uav1/fuel_ws/build/so3_quadrotor_simulator/CMakeFiles/CMakeTmp”
+Makefile:126: recipe for target 'cmTC_69809/fast' failed
+make: *** [cmTC_69809/fast] Error 2
+
+

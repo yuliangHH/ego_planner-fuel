@@ -1,0 +1,27 @@
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/utils/lkh_tsp_solver/include/LKH.h:[m[K In function ‘[01m[KReadEdges[m[K’:
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/utils/lkh_tsp_solver/src/ReadEdges.c:31:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfscanf(EdgeFile, "%d %d\n", &i, &Edges)[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/utils/lkh_tsp_solver/src/ReadEdges.c:36:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfgets[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+             [01;35m[Kfgets(line, 80, EdgeFile)[m[K;
+             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/utils/lkh_tsp_solver/include/LKH.h:[m[K In function ‘[01m[KReadEdges[m[K’:
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/utils/lkh_tsp_solver/src/ReadEdges.c:31:9:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfscanf[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+         [01;35m[Kfscanf(EdgeFile, "%d %d\n", &i, &Edges)[m[K;
+         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/utils/lkh_tsp_solver/src/ReadEdges.c:36:13:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kfgets[m[K’, declared with attribute warn_unused_result [[01;35m[K-Wunused-result[m[K]
+             [01;35m[Kfgets(line, 80, EdgeFile)[m[K;
+             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/utils/lkh_tsp_solver/src/lkh_interface.cpp:[m[K In function ‘[01m[Kint solveTSPLKH(const char*)[m[K’:
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/utils/lkh_tsp_solver/src/lkh_interface.cpp:61:70:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+           printff("  Merged with %d: Cost = " GainFormat, i + 1, Cost[01;35m[K)[m[K;
+                                                                      [01;35m[K^[m[K
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/utils/lkh_tsp_solver/src/lkh_interface.cpp:63:74:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+             printff(", Gap = %0.4f%%", 100.0 * (Cost - Optimum) / Optimum[01;35m[K)[m[K;
+                                                                          [01;35m[K^[m[K
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/utils/lkh_tsp_solver/src/lkh_interface.cpp:64:23:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+           printff("\n"[01;35m[K)[m[K;
+                       [01;35m[K^[m[K
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/utils/lkh_tsp_solver/src/lkh_interface.cpp:94:66:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K-Wwrite-strings[m[K]
+       printff("*** New optimum = " GainFormat " ***\n\n", Optimum[01;35m[K)[m[K;
+                                                                  [01;35m[K^[m[K

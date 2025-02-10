@@ -1,0 +1,13 @@
+[rospy.client][INFO] 2025-01-06 17:01:59,834: init_node, name[/rostopic_14640_1736154119804], pid[14640]
+[xmlrpc][INFO] 2025-01-06 17:01:59,834: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-01-06 17:01:59,835: Started XML-RPC server [http://uav1-Default-string:43923/]
+[rospy.init][INFO] 2025-01-06 17:01:59,835: ROS Slave URI: [http://uav1-Default-string:43923/]
+[rospy.impl.masterslave][INFO] 2025-01-06 17:01:59,835: _ready: http://uav1-Default-string:43923/
+[rospy.registration][INFO] 2025-01-06 17:01:59,835: Registering with master node http://192.168.1.100:11311
+[xmlrpc][INFO] 2025-01-06 17:01:59,835: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-01-06 17:01:59,935: registered with master
+[rospy.rosout][INFO] 2025-01-06 17:01:59,935: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-01-06 17:01:59,938: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-01-06 17:01:59,939: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2025-01-06 17:02:00,063: topic[/mavros/local_position/odom] adding connection to [http://uav1-Default-string:42683/], count 0
+[rospy.internal][INFO] 2025-01-06 17:02:00,213: topic[/rosout] adding connection to [/rosout], count 0

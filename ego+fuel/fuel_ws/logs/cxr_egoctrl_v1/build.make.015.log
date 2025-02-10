@@ -1,0 +1,17 @@
+[35m[1mScanning dependencies of target cxr_egoctrl_v1[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/cxr_egoctrl_v1.dir/src/DataManager/data_ros_output.cpp.o[0m
+[01m[K/home/uav1/fuel_ws/src/exploration/cxr_ego_ctrl/src/cxr_egoctrl_v1/src/DataManager/data_ros_output.cpp:46:4:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #local_raw
+   #[01;31m[Klocal_raw[m[K.acceleration_or_force.x = desire_state.acc(0);
+    [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/uav1/fuel_ws/src/exploration/cxr_ego_ctrl/src/cxr_egoctrl_v1/src/DataManager/data_ros_output.cpp:47:4:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #local_raw
+   #[01;31m[Klocal_raw[m[K.acceleration_or_force.y = desire_state.acc(1);
+    [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/uav1/fuel_ws/src/exploration/cxr_ego_ctrl/src/cxr_egoctrl_v1/src/DataManager/data_ros_output.cpp:48:4:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #local_raw
+   #[01;31m[Klocal_raw[m[K.acceleration_or_force.z = desire_state.acc(2);
+    [01;31m[K^~~~~~~~~[m[K
+CMakeFiles/cxr_egoctrl_v1.dir/build.make:110: recipe for target 'CMakeFiles/cxr_egoctrl_v1.dir/src/DataManager/data_ros_output.cpp.o' failed
+make[2]: *** [CMakeFiles/cxr_egoctrl_v1.dir/src/DataManager/data_ros_output.cpp.o] Error 1
+CMakeFiles/Makefile2:1347: recipe for target 'CMakeFiles/cxr_egoctrl_v1.dir/all' failed
+make[1]: *** [CMakeFiles/cxr_egoctrl_v1.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

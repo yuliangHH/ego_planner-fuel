@@ -1,0 +1,8 @@
+prefix=/home/uav1/fuel_ws/devel/.private/cmake_utils
+
+Name: cmake_utils
+Description: Description of cmake_utils
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

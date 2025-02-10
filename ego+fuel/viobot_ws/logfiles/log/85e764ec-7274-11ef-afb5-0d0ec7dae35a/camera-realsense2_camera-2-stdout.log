@@ -1,0 +1,4 @@
+[0m[ INFO] [1735868925.462792278]: Loading nodelet /camera/realsense2_camera of type realsense2_camera/RealSenseNodeFactory to manager realsense2_camera_manager with the following remappings:[0m
+[0m[ INFO] [1735868925.467985148]: waitForService: Service [/camera/realsense2_camera_manager/load_nodelet] has not been advertised, waiting...[0m
+[0m[ INFO] [1735868925.489724637]: waitForService: Service [/camera/realsense2_camera_manager/load_nodelet] is now available.[0m
+[0m[ INFO] [1735869070.270155169]: Unloading nodelet /camera/realsense2_camera from manager realsense2_camera_manager[0m

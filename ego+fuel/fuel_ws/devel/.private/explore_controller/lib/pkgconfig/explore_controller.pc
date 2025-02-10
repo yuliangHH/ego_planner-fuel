@@ -1,0 +1,8 @@
+prefix=/home/uav1/fuel_ws/devel/.private/explore_controller
+
+Name: explore_controller
+Description: Description of explore_controller
+Version: 0.0.0
+Cflags: -I/home/uav1/fuel_ws/src/exploration/explore_controller/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

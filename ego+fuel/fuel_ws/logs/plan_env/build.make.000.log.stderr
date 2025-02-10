@@ -1,0 +1,8 @@
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/plan_env/src/obj_predictor.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::ObjHistory::poseCallback(const PoseStampedConstPtr&)[m[K’:
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/plan_env/src/obj_predictor.cpp:28:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   if ([01;35m[Khistory_.size() > queue_size_[m[K) history_.pop_front();
+       [01;35m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/plan_env/src/edt_environment.cpp:[m[K In member function ‘[01m[Kdouble fast_planner::EDTEnvironment::minDistToAllBox(const Vector3d&, const double&)[m[K’:
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/plan_env/src/edt_environment.cpp:42:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < obj_prediction_->size()[m[K; i++) {
+                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K

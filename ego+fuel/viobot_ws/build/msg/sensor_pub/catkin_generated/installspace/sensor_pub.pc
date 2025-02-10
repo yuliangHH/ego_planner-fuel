@@ -1,0 +1,8 @@
+prefix=/home/uav1/viobot_ws/install
+
+Name: sensor_pub
+Description: Description of sensor_pub
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rosmsg message_runtime

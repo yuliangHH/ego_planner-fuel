@@ -1,0 +1,8 @@
+prefix=/home/uav1/fuel_ws/devel/.private/poscmd_2_odom
+
+Name: poscmd_2_odom
+Description: Description of poscmd_2_odom
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

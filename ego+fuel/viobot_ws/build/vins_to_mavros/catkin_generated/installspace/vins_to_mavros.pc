@@ -1,0 +1,8 @@
+prefix=/home/uav1/viobot_ws/install
+
+Name: vins_to_mavros
+Description: Description of vins_to_mavros
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,15 @@
+/usr/bin/cmake -H/home/uav1/fuel_ws/src/exploration/FUEL/uav_simulator/Utils/waypoint_generator -B/home/uav1/fuel_ws/build/waypoint_generator --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/uav1/fuel_ws/build/waypoint_generator/CMakeFiles /home/uav1/fuel_ws/build/waypoint_generator/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[1]: 进入目录“/home/uav1/fuel_ws/build/waypoint_generator”
+/usr/bin/make -f CMakeFiles/waypoint_generator.dir/build.make CMakeFiles/waypoint_generator.dir/depend
+make[2]: 进入目录“/home/uav1/fuel_ws/build/waypoint_generator”
+cd /home/uav1/fuel_ws/build/waypoint_generator && /usr/bin/cmake -E cmake_depends "Unix Makefiles" /home/uav1/fuel_ws/src/exploration/FUEL/uav_simulator/Utils/waypoint_generator /home/uav1/fuel_ws/src/exploration/FUEL/uav_simulator/Utils/waypoint_generator /home/uav1/fuel_ws/build/waypoint_generator /home/uav1/fuel_ws/build/waypoint_generator /home/uav1/fuel_ws/build/waypoint_generator/CMakeFiles/waypoint_generator.dir/DependInfo.cmake --color=
+make[2]: 离开目录“/home/uav1/fuel_ws/build/waypoint_generator”
+/usr/bin/make -f CMakeFiles/waypoint_generator.dir/build.make CMakeFiles/waypoint_generator.dir/build
+make[2]: 进入目录“/home/uav1/fuel_ws/build/waypoint_generator”
+make[2]: 对“CMakeFiles/waypoint_generator.dir/build”无需做任何事。
+make[2]: 离开目录“/home/uav1/fuel_ws/build/waypoint_generator”
+[100%] Built target waypoint_generator
+make[1]: 离开目录“/home/uav1/fuel_ws/build/waypoint_generator”
+/usr/bin/cmake -E cmake_progress_start /home/uav1/fuel_ws/build/waypoint_generator/CMakeFiles 0

@@ -1,0 +1,31 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/chenxx/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/chenxx/catkin_ws/src/dog_test/include/**",
+<<<<<<< HEAD
+        "/home/chenxx/orbslaminfo/src/info_send/include/**",
+=======
+        "/home/chenxx/modify0906/image_tran/src/info_send/include/**",
+>>>>>>> 29a0b3db0e706e557e46558b5ed0c525884ad7a2
+        "/home/chenxx/catkin_ws/src/unitree_ros/unitree_controller/include/**",
+        "/home/chenxx/catkin_ws/src/unitree_guide/unitree_guide/include/**",
+        "/home/chenxx/catkin_ws/src/unitree_ros/unitree_legged_control/include/**",
+        "/home/chenxx/catkin_ws/src/unitree_guide/unitree_actuator_sdk/unitree_motor_ctrl/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

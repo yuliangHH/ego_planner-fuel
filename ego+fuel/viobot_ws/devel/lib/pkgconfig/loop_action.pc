@@ -1,0 +1,8 @@
+prefix=/home/uav1/viobot_ws/devel
+
+Name: loop_action
+Description: Description of loop_action
+Version: 0.0.0
+Cflags: -I/home/uav1/viobot_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

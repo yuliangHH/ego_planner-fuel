@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/uav1/ego+ctrl/send_map/devel/setup.sh

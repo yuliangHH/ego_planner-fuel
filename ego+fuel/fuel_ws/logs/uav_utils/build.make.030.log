@@ -1,0 +1,7 @@
+/usr/bin/cmake -H/home/uav1/fuel_ws/src/exploration/FUEL/uav_simulator/Utils/uav_utils -B/home/uav1/fuel_ws/build/uav_utils --check-build-system CMakeFiles/Makefile.cmake 0
+/usr/bin/cmake -E cmake_progress_start /home/uav1/fuel_ws/build/uav_utils/CMakeFiles /home/uav1/fuel_ws/build/uav_utils/CMakeFiles/progress.marks
+/usr/bin/make -f CMakeFiles/Makefile2 all
+make[1]: 进入目录“/home/uav1/fuel_ws/build/uav_utils”
+make[1]: 对“all”无需做任何事。
+make[1]: 离开目录“/home/uav1/fuel_ws/build/uav_utils”
+/usr/bin/cmake -E cmake_progress_start /home/uav1/fuel_ws/build/uav_utils/CMakeFiles 0

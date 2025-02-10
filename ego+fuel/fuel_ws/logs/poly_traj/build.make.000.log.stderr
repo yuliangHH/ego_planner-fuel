@@ -1,0 +1,5 @@
+In file included from [01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/poly_traj/src/polynomial_traj.cpp:2:0[m[K:
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/poly_traj/include/poly_traj/polynomial_traj.h:[m[K In member function ‘[01m[Kdouble fast_planner::PolynomialTraj::getLength()[m[K’:
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/poly_traj/include/poly_traj/polynomial_traj.h:118:23:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+     for (int i = 1; [01;35m[Ki < sample_points_.size()[m[K; ++i) {
+                     [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K

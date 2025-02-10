@@ -1,0 +1,9 @@
+In file included from [01m[K/home/uav1/fuel_ws/src/exploration/cxr_ego_ctrl/src/cxr_egoctrl_v1/include/DataManager/data_manager.h:3:0[m[K,
+                 from [01m[K/home/uav1/fuel_ws/src/exploration/cxr_ego_ctrl/src/cxr_egoctrl_v1/src/DataManager/data_manager.cpp:1[m[K:
+[01m[K/home/uav1/fuel_ws/src/exploration/cxr_ego_ctrl/src/cxr_egoctrl_v1/include/DataManager/common.h:3:10:[m[K [01;31m[Kfatal error: [m[KEigen/Eigen: 没有那个文件或目录
+ #include [01;31m[K<Eigen/Eigen>[m[K
+          [01;31m[K^~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/cxr_egoctrl_v1.dir/src/DataManager/data_manager.cpp.o] Error 1
+make[1]: *** [CMakeFiles/cxr_egoctrl_v1.dir/all] Error 2
+make: *** [all] Error 2

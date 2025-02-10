@@ -1,0 +1,8 @@
+prefix=/home/uav1/fuel_ws/devel/.private/pose_utils
+
+Name: pose_utils
+Description: Description of pose_utils
+Version: 0.0.0
+Cflags: -I/home/uav1/fuel_ws/src/exploration/FUEL/uav_simulator/Utils/pose_utils/include
+Libs: -L${prefix}/lib -lpose_utils
+Requires: 

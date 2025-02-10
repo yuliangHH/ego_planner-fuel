@@ -1,0 +1,2 @@
+info_tran
+-DCATKIN_DEVEL_PREFIX=/home/uav1/ego+ctrl/info_trans/devel -DCMAKE_INSTALL_PREFIX=/home/uav1/ego+ctrl/info_trans/install -G Unix Makefiles

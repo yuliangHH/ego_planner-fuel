@@ -1,0 +1,4 @@
+Symlinking /home/uav1/fuel_ws/devel/lib/explore_controller/explore_controller
+Symlinking /home/uav1/fuel_ws/devel/lib/pkgconfig/explore_controller.pc
+Symlinking /home/uav1/fuel_ws/devel/share/explore_controller/cmake/explore_controllerConfig.cmake
+Symlinking /home/uav1/fuel_ws/devel/share/explore_controller/cmake/explore_controllerConfig-version.cmake

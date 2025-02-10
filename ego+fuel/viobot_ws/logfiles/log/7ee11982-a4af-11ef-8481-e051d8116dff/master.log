@@ -1,0 +1,428 @@
+[rosmaster.main][INFO] 2024-11-17 14:45:13,223: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2024-11-17 14:45:13,223: Starting ROS Master Node
+[xmlrpc][INFO] 2024-11-17 14:45:13,223: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2024-11-17 14:45:13,224: Started XML-RPC server [http://uav1-Default-string:11311/]
+[rosmaster.master][INFO] 2024-11-17 14:45:13,224: Master initialized: port[11311], uri[http://uav1-Default-string:11311/]
+[xmlrpc][INFO] 2024-11-17 14:45:13,224: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2024-11-17 14:45:13,274: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:13,275: +PARAM [/roslaunch/uris/host_uav1_default_string__43529] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:13,312: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:13,312: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:13,316: +SERVICE [/rosout/get_loggers] /rosout http://uav1-Default-string:44401/
+[rosmaster.master][INFO] 2024-11-17 14:45:13,317: +SERVICE [/rosout/set_logger_level] /rosout http://uav1-Default-string:44401/
+[rosmaster.master][INFO] 2024-11-17 14:45:13,318: +PUB [/rosout_agg] /rosout http://uav1-Default-string:44401/
+[rosmaster.master][INFO] 2024-11-17 14:45:13,319: +SUB [/rosout] /rosout http://uav1-Default-string:44401/
+[rosmaster.master][INFO] 2024-11-17 14:45:13,324: +PUB [/rosout] /vins_to_mavros http://uav1-Default-string:42659/
+[rosmaster.master][INFO] 2024-11-17 14:45:13,325: +SERVICE [/vins_to_mavros/get_loggers] /vins_to_mavros http://uav1-Default-string:42659/
+[rosmaster.master][INFO] 2024-11-17 14:45:13,325: +SERVICE [/vins_to_mavros/set_logger_level] /vins_to_mavros http://uav1-Default-string:42659/
+[rosmaster.master][INFO] 2024-11-17 14:45:13,327: +SUB [/viobot/pr_loop/odometry_rect] /vins_to_mavros http://uav1-Default-string:42659/
+[rosmaster.master][INFO] 2024-11-17 14:45:13,328: +SUB [/mavros/distance_sensor/hrlv_ez4_pub] /vins_to_mavros http://uav1-Default-string:42659/
+[rosmaster.master][INFO] 2024-11-17 14:45:13,328: +PUB [/mavros/vision_pose/pose] /vins_to_mavros http://uav1-Default-string:42659/
+[rosmaster.master][INFO] 2024-11-17 14:45:13,329: +PUB [/viobot/camera_pose] /vins_to_mavros http://uav1-Default-string:42659/
+[rosmaster.master][INFO] 2024-11-17 14:45:13,329: +PUB [/viobot/stereo2_ctrl] /vins_to_mavros http://uav1-Default-string:42659/
+[rosmaster.master][INFO] 2024-11-17 14:45:13,423: publisherUpdate[/rosout] -> http://uav1-Default-string:44401/ ['http://uav1-Default-string:42659/']
+[rosmaster.master][INFO] 2024-11-17 14:45:13,425: publisherUpdate[/rosout] -> http://uav1-Default-string:44401/ ['http://uav1-Default-string:42659/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-11-17 14:45:14,332: +CACHEDPARAM [/rosout_disable_topics_generation] by /vins_to_mavros
+[rosmaster.master][INFO] 2024-11-17 14:45:14,336: +CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.master][INFO] 2024-11-17 14:45:18,262: +PARAM [/roslaunch/uris/host_uav1_default_string__46863] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,267: +PARAM [/camera/realsense2_camera/ordered_pc] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,268: +PARAM [/camera/realsense2_camera/pointcloud_texture_index] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,268: +PARAM [/camera/realsense2_camera/confidence_height] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,268: +PARAM [/camera/realsense2_camera/color_width] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,268: +PARAM [/camera/realsense2_camera/fisheye_fps] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,268: +PARAM [/camera/realsense2_camera/wait_for_device_timeout] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,268: +PARAM [/camera/realsense2_camera/color_optical_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,268: +PARAM [/camera/realsense2_camera/fisheye_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,268: +PARAM [/camera/realsense2_camera/fisheye2_optical_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,268: +PARAM [/camera/realsense2_camera/fisheye_height] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,268: +PARAM [/camera/realsense2_camera/enable_fisheye2] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,268: +PARAM [/camera/realsense2_camera/enable_fisheye1] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,268: +PARAM [/camera/realsense2_camera/accel_optical_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,268: +PARAM [/camera/realsense2_camera/serial_no] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,268: +PARAM [/camera/realsense2_camera/fisheye1_optical_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,268: +PARAM [/camera/realsense2_camera/allow_no_texture_points] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,269: +PARAM [/camera/realsense2_camera/infra1_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,269: +PARAM [/camera/realsense2_camera/publish_tf] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,269: +PARAM [/camera/realsense2_camera/json_file_path] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,269: +PARAM [/camera/realsense2_camera/enable_accel] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,269: +PARAM [/camera/realsense2_camera/depth_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,269: +PARAM [/camera/realsense2_camera/enable_sync] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,269: +PARAM [/camera/realsense2_camera/fisheye2_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,269: +PARAM [/camera/realsense2_camera/depth_width] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,269: +PARAM [/camera/realsense2_camera/enable_pose] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,269: +PARAM [/camera/realsense2_camera/infra_fps] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,269: +PARAM [/camera/realsense2_camera/confidence_width] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,269: +PARAM [/camera/realsense2_camera/infra1_optical_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,269: +PARAM [/camera/realsense2_camera/depth_fps] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,269: +PARAM [/camera/realsense2_camera/infra_width] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,269: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,269: +PARAM [/camera/realsense2_camera/fisheye_optical_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,269: +PARAM [/camera/realsense2_camera/infra_height] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,269: +PARAM [/camera/realsense2_camera/stereo_module/exposure/2] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,270: +PARAM [/camera/realsense2_camera/aligned_depth_to_color_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,270: +PARAM [/camera/realsense2_camera/imu_optical_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,270: +PARAM [/camera/realsense2_camera/stereo_module/exposure/1] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,270: +PARAM [/camera/realsense2_camera/device_type] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,270: +PARAM [/camera/realsense2_camera/calib_odom_file] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,270: +PARAM [/camera/realsense2_camera/usb_port_id] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,270: +PARAM [/camera/realsense2_camera/aligned_depth_to_infra1_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,270: +PARAM [/camera/realsense2_camera/color_fps] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,270: +PARAM [/camera/realsense2_camera/infra_rgb] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,270: +PARAM [/camera/realsense2_camera/confidence_fps] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,270: +PARAM [/camera/realsense2_camera/linear_accel_cov] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,270: +PARAM [/camera/realsense2_camera/aligned_depth_to_fisheye1_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,271: +PARAM [/camera/realsense2_camera/topic_odom_in] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,271: +PARAM [/camera/realsense2_camera/stereo_module/gain/1] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,271: +PARAM [/camera/realsense2_camera/stereo_module/gain/2] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,271: +PARAM [/camera/realsense2_camera/initial_reset] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,272: +PARAM [/camera/realsense2_camera/fisheye_width] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,272: +PARAM [/camera/realsense2_camera/align_depth] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,272: +PARAM [/camera/realsense2_camera/enable_confidence] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,272: +PARAM [/camera/realsense2_camera/enable_infra] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,273: +PARAM [/camera/realsense2_camera/enable_depth] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,273: +PARAM [/camera/realsense2_camera/aligned_depth_to_fisheye_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,273: +PARAM [/camera/realsense2_camera/accel_fps] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,273: +PARAM [/camera/realsense2_camera/unite_imu_method] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,274: +PARAM [/camera/realsense2_camera/gyro_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,274: +PARAM [/camera/realsense2_camera/odom_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,274: +PARAM [/camera/realsense2_camera/gyro_fps] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,275: +PARAM [/camera/realsense2_camera/base_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,275: +PARAM [/camera/realsense2_camera/infra2_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,275: +PARAM [/camera/realsense2_camera/aligned_depth_to_fisheye2_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,275: +PARAM [/camera/realsense2_camera/pointcloud_texture_stream] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,276: +PARAM [/camera/realsense2_camera/color_height] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,276: +PARAM [/camera/realsense2_camera/publish_odom_tf] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,276: +PARAM [/camera/realsense2_camera/pose_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,276: +PARAM [/camera/realsense2_camera/enable_color] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,276: +PARAM [/camera/realsense2_camera/accel_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,276: +PARAM [/camera/realsense2_camera/rosbag_filename] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,276: +PARAM [/camera/realsense2_camera/tf_publish_rate] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,276: +PARAM [/camera/realsense2_camera/enable_fisheye] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,276: +PARAM [/camera/realsense2_camera/enable_infra1] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,276: +PARAM [/camera/realsense2_camera/enable_infra2] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,276: +PARAM [/camera/realsense2_camera/filters] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,276: +PARAM [/camera/realsense2_camera/infra2_optical_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,276: +PARAM [/camera/realsense2_camera/pose_optical_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,276: +PARAM [/camera/realsense2_camera/reconnect_timeout] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,276: +PARAM [/camera/realsense2_camera/gyro_optical_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,276: +PARAM [/camera/realsense2_camera/depth_optical_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,277: +PARAM [/camera/realsense2_camera/color_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,277: +PARAM [/camera/realsense2_camera/depth_height] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,277: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,277: +PARAM [/camera/realsense2_camera/aligned_depth_to_infra2_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,277: +PARAM [/camera/realsense2_camera/fisheye1_frame_id] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,277: +PARAM [/camera/realsense2_camera/enable_gyro] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,277: +PARAM [/camera/realsense2_camera/enable_pointcloud] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,277: +PARAM [/camera/realsense2_camera/clip_distance] by /roslaunch
+[rosmaster.master][INFO] 2024-11-17 14:45:18,367: +PUB [/rosout] /camera/realsense2_camera http://uav1-Default-string:36117/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,367: +SERVICE [/camera/realsense2_camera/get_loggers] /camera/realsense2_camera http://uav1-Default-string:36117/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,368: +SERVICE [/camera/realsense2_camera/set_logger_level] /camera/realsense2_camera http://uav1-Default-string:36117/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,369: +CACHEDPARAM [/rosout_disable_topics_generation] by /camera/realsense2_camera
+[rosmaster.master][INFO] 2024-11-17 14:45:18,373: +PARAM [/camera/realsense2_camera] by /camera/realsense2_camera
+[rosmaster.master][INFO] 2024-11-17 14:45:18,380: +PUB [/rosout] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,381: +SERVICE [/camera/realsense2_camera_manager/get_loggers] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,381: +SERVICE [/camera/realsense2_camera_manager/set_logger_level] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,382: +CACHEDPARAM [/rosout_disable_topics_generation] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,383: +SERVICE [/camera/realsense2_camera_manager/load_nodelet] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,383: +SERVICE [/camera/realsense2_camera_manager/unload_nodelet] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,384: +SERVICE [/camera/realsense2_camera_manager/list] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,432: publisherUpdate[/rosout] -> http://uav1-Default-string:44401/ ['http://uav1-Default-string:42659/', 'http://uav1-Default-string:36117/']
+[rosmaster.master][INFO] 2024-11-17 14:45:18,433: publisherUpdate[/rosout] -> http://uav1-Default-string:44401/ ['http://uav1-Default-string:42659/', 'http://uav1-Default-string:36117/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-11-17 14:45:18,433: publisherUpdate[/rosout] -> http://uav1-Default-string:44401/ ['http://uav1-Default-string:42659/', 'http://uav1-Default-string:36117/', 'http://uav1-Default-string:38655/']
+[rosmaster.master][INFO] 2024-11-17 14:45:18,434: publisherUpdate[/rosout] -> http://uav1-Default-string:44401/ ['http://uav1-Default-string:42659/', 'http://uav1-Default-string:36117/', 'http://uav1-Default-string:38655/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-11-17 14:45:18,456: +PUB [/camera/realsense2_camera_manager/bond] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,457: +SUB [/camera/realsense2_camera_manager/bond] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,468: +SERVICE [/camera/enable] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,470: +SERVICE [/camera/realsense2_camera/reset] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,535: +PUB [/camera/realsense2_camera_manager/bond] /camera/realsense2_camera http://uav1-Default-string:36117/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,535: publisherUpdate[/camera/realsense2_camera_manager/bond] -> http://uav1-Default-string:38655/ ['http://uav1-Default-string:38655/', 'http://uav1-Default-string:36117/']
+[rosmaster.master][INFO] 2024-11-17 14:45:18,537: +PUB [/tf_static] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,542: +PUB [/tf] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,543: publisherUpdate[/camera/realsense2_camera_manager/bond] -> http://uav1-Default-string:38655/ ['http://uav1-Default-string:38655/', 'http://uav1-Default-string:36117/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-11-17 14:45:18,547: +SUB [/camera/realsense2_camera_manager/bond] /camera/realsense2_camera http://uav1-Default-string:36117/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,720: +PUB [/camera/stereo_module/parameter_descriptions] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,722: +PUB [/camera/stereo_module/parameter_updates] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,724: +SERVICE [/camera/stereo_module/set_parameters] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,759: +PUB [/camera/rgb_camera/parameter_descriptions] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,760: +PUB [/camera/rgb_camera/parameter_updates] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,761: +SERVICE [/camera/rgb_camera/set_parameters] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,767: +PUB [/camera/motion_module/parameter_descriptions] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,768: +PUB [/camera/motion_module/parameter_updates] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,768: +SERVICE [/camera/motion_module/set_parameters] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,770: +PUB [/camera/align_to_color/parameter_descriptions] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,771: +PUB [/camera/align_to_color/parameter_updates] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,771: +SERVICE [/camera/align_to_color/set_parameters] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,778: +PUB [/diagnostics] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,780: +CACHEDPARAM [/camera/realsense2_camera_manager/diagnostic_period] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,788: +PUB [/camera/depth/image_rect_raw/compressedDepth] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,789: +SERVICE [/camera/depth/image_rect_raw/compressedDepth/set_parameters] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,790: +PUB [/camera/depth/image_rect_raw/compressedDepth/parameter_descriptions] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,791: +PUB [/camera/depth/image_rect_raw/compressedDepth/parameter_updates] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,794: +PARAM [/camera/depth/image_rect_raw/compressedDepth/depth_max] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,795: +PARAM [/camera/depth/image_rect_raw/compressedDepth/depth_quantization] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,796: +PARAM [/camera/depth/image_rect_raw/compressedDepth/png_level] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,797: +PARAM [/camera/depth/image_rect_raw/compressedDepth/depth_max] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,799: +PARAM [/camera/depth/image_rect_raw/compressedDepth/depth_quantization] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,800: +PARAM [/camera/depth/image_rect_raw/compressedDepth/png_level] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,808: +PUB [/camera/depth/image_rect_raw/compressed] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,809: +SERVICE [/camera/depth/image_rect_raw/compressed/set_parameters] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,811: +PUB [/camera/depth/image_rect_raw/compressed/parameter_descriptions] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,812: +PUB [/camera/depth/image_rect_raw/compressed/parameter_updates] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,817: +PARAM [/camera/depth/image_rect_raw/compressed/format] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,818: +PARAM [/camera/depth/image_rect_raw/compressed/jpeg_quality] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,819: +PARAM [/camera/depth/image_rect_raw/compressed/png_level] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,821: +PARAM [/camera/depth/image_rect_raw/compressed/format] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,822: +PARAM [/camera/depth/image_rect_raw/compressed/jpeg_quality] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,824: +PARAM [/camera/depth/image_rect_raw/compressed/png_level] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,827: +PUB [/camera/depth/image_rect_raw] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,833: +PUB [/camera/depth/image_rect_raw/theora] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,834: +SERVICE [/camera/depth/image_rect_raw/theora/set_parameters] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,835: +PUB [/camera/depth/image_rect_raw/theora/parameter_descriptions] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,835: +PUB [/camera/depth/image_rect_raw/theora/parameter_updates] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,838: +PARAM [/camera/depth/image_rect_raw/theora/optimize_for] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,838: +PARAM [/camera/depth/image_rect_raw/theora/target_bitrate] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,839: +PARAM [/camera/depth/image_rect_raw/theora/quality] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,839: +PARAM [/camera/depth/image_rect_raw/theora/keyframe_frequency] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,840: +PARAM [/camera/depth/image_rect_raw/theora/optimize_for] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,840: +PARAM [/camera/depth/image_rect_raw/theora/target_bitrate] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,841: +PARAM [/camera/depth/image_rect_raw/theora/quality] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,842: +PARAM [/camera/depth/image_rect_raw/theora/keyframe_frequency] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,842: +PUB [/camera/depth/camera_info] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,843: +PUB [/camera/depth/metadata] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,844: +PUB [/camera/color/image_raw/compressedDepth] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,844: +SERVICE [/camera/color/image_raw/compressedDepth/set_parameters] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,845: +PUB [/camera/color/image_raw/compressedDepth/parameter_descriptions] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,846: +PUB [/camera/color/image_raw/compressedDepth/parameter_updates] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,847: +PARAM [/camera/color/image_raw/compressedDepth/depth_max] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,848: +PARAM [/camera/color/image_raw/compressedDepth/depth_quantization] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,849: +PARAM [/camera/color/image_raw/compressedDepth/png_level] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,849: +PARAM [/camera/color/image_raw/compressedDepth/depth_max] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,850: +PARAM [/camera/color/image_raw/compressedDepth/depth_quantization] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,851: +PARAM [/camera/color/image_raw/compressedDepth/png_level] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,852: +PUB [/camera/color/image_raw/compressed] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,853: +SERVICE [/camera/color/image_raw/compressed/set_parameters] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,854: +PUB [/camera/color/image_raw/compressed/parameter_descriptions] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,855: +PUB [/camera/color/image_raw/compressed/parameter_updates] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,857: +PARAM [/camera/color/image_raw/compressed/format] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,858: +PARAM [/camera/color/image_raw/compressed/jpeg_quality] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,859: +PARAM [/camera/color/image_raw/compressed/png_level] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,860: +PARAM [/camera/color/image_raw/compressed/format] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,861: +PARAM [/camera/color/image_raw/compressed/jpeg_quality] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,862: +PARAM [/camera/color/image_raw/compressed/png_level] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,863: +PUB [/camera/color/image_raw] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,864: +PUB [/camera/color/image_raw/theora] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,865: +SERVICE [/camera/color/image_raw/theora/set_parameters] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,867: +PUB [/camera/color/image_raw/theora/parameter_descriptions] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,868: +PUB [/camera/color/image_raw/theora/parameter_updates] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,872: +PARAM [/camera/color/image_raw/theora/optimize_for] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,873: +PARAM [/camera/color/image_raw/theora/target_bitrate] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,874: +PARAM [/camera/color/image_raw/theora/quality] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,874: +PARAM [/camera/color/image_raw/theora/keyframe_frequency] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,876: +PARAM [/camera/color/image_raw/theora/optimize_for] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,877: +PARAM [/camera/color/image_raw/theora/target_bitrate] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,878: +PARAM [/camera/color/image_raw/theora/quality] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,880: +PARAM [/camera/color/image_raw/theora/keyframe_frequency] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,882: +PUB [/camera/color/camera_info] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,883: +PUB [/camera/color/metadata] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,885: +PUB [/camera/aligned_depth_to_color/image_raw/compressedDepth] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,886: +SERVICE [/camera/aligned_depth_to_color/image_raw/compressedDepth/set_parameters] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,887: +PUB [/camera/aligned_depth_to_color/image_raw/compressedDepth/parameter_descriptions] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,887: +PUB [/camera/aligned_depth_to_color/image_raw/compressedDepth/parameter_updates] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,890: +PARAM [/camera/aligned_depth_to_color/image_raw/compressedDepth/depth_max] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,891: +PARAM [/camera/aligned_depth_to_color/image_raw/compressedDepth/depth_quantization] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,891: +PARAM [/camera/aligned_depth_to_color/image_raw/compressedDepth/png_level] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,892: +PARAM [/camera/aligned_depth_to_color/image_raw/compressedDepth/depth_max] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,892: +PARAM [/camera/aligned_depth_to_color/image_raw/compressedDepth/depth_quantization] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,892: +PARAM [/camera/aligned_depth_to_color/image_raw/compressedDepth/png_level] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,893: +PUB [/camera/aligned_depth_to_color/image_raw/compressed] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,893: +SERVICE [/camera/aligned_depth_to_color/image_raw/compressed/set_parameters] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,893: +PUB [/camera/aligned_depth_to_color/image_raw/compressed/parameter_descriptions] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,894: +PUB [/camera/aligned_depth_to_color/image_raw/compressed/parameter_updates] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,894: +PARAM [/camera/aligned_depth_to_color/image_raw/compressed/format] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,895: +PARAM [/camera/aligned_depth_to_color/image_raw/compressed/jpeg_quality] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,895: +PARAM [/camera/aligned_depth_to_color/image_raw/compressed/png_level] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,895: +PARAM [/camera/aligned_depth_to_color/image_raw/compressed/format] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,895: +PARAM [/camera/aligned_depth_to_color/image_raw/compressed/jpeg_quality] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,896: +PARAM [/camera/aligned_depth_to_color/image_raw/compressed/png_level] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,896: +PUB [/camera/aligned_depth_to_color/image_raw] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,896: +PUB [/camera/aligned_depth_to_color/image_raw/theora] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,896: +SERVICE [/camera/aligned_depth_to_color/image_raw/theora/set_parameters] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,897: +PUB [/camera/aligned_depth_to_color/image_raw/theora/parameter_descriptions] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,897: +PUB [/camera/aligned_depth_to_color/image_raw/theora/parameter_updates] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,898: +PARAM [/camera/aligned_depth_to_color/image_raw/theora/optimize_for] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,898: +PARAM [/camera/aligned_depth_to_color/image_raw/theora/target_bitrate] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,898: +PARAM [/camera/aligned_depth_to_color/image_raw/theora/quality] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,898: +PARAM [/camera/aligned_depth_to_color/image_raw/theora/keyframe_frequency] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,899: +PARAM [/camera/aligned_depth_to_color/image_raw/theora/optimize_for] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,899: +PARAM [/camera/aligned_depth_to_color/image_raw/theora/target_bitrate] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,899: +PARAM [/camera/aligned_depth_to_color/image_raw/theora/quality] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,899: +PARAM [/camera/aligned_depth_to_color/image_raw/theora/keyframe_frequency] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:18,899: +PUB [/camera/aligned_depth_to_color/camera_info] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,900: +PUB [/camera/extrinsics/depth_to_color] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,997: +PUB [/camera/stereo_module/auto_exposure_roi/parameter_descriptions] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:18,999: +PUB [/camera/stereo_module/auto_exposure_roi/parameter_updates] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:19,001: +SERVICE [/camera/stereo_module/auto_exposure_roi/set_parameters] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:19,013: +PUB [/camera/rgb_camera/auto_exposure_roi/parameter_descriptions] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:19,015: +PUB [/camera/rgb_camera/auto_exposure_roi/parameter_updates] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:19,017: +SERVICE [/camera/rgb_camera/auto_exposure_roi/set_parameters] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:19,020: +SERVICE [/camera/realsense2_camera/device_info] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,072: -PUB [/rosout] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,073: -PUB [/camera/realsense2_camera_manager/bond] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,073: -PUB [/tf_static] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,074: -PUB [/tf] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,074: -PUB [/camera/stereo_module/parameter_descriptions] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,075: -PUB [/camera/stereo_module/parameter_updates] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,075: -PUB [/camera/rgb_camera/parameter_descriptions] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,075: -PUB [/camera/rgb_camera/parameter_updates] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,075: -PUB [/camera/motion_module/parameter_descriptions] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,076: -PUB [/camera/motion_module/parameter_updates] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,076: -PUB [/camera/align_to_color/parameter_descriptions] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,076: publisherUpdate[/rosout] -> http://uav1-Default-string:44401/ ['http://uav1-Default-string:42659/', 'http://uav1-Default-string:36117/']
+[rosmaster.master][INFO] 2024-11-17 14:45:34,076: -PUB [/camera/align_to_color/parameter_updates] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,077: publisherUpdate[/rosout] -> http://uav1-Default-string:44401/ ['http://uav1-Default-string:42659/', 'http://uav1-Default-string:36117/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-11-17 14:45:34,077: -PUB [/diagnostics] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,077: publisherUpdate[/camera/realsense2_camera_manager/bond] -> http://uav1-Default-string:38655/ ['http://uav1-Default-string:36117/']
+[rosmaster.master][INFO] 2024-11-17 14:45:34,077: -PUB [/camera/depth/image_rect_raw/compressedDepth] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,078: -PUB [/camera/depth/image_rect_raw/compressedDepth/parameter_descriptions] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,078: -PUB [/camera/depth/image_rect_raw/compressedDepth/parameter_updates] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,078: -PUB [/camera/depth/image_rect_raw/compressed] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,078: -PUB [/camera/depth/image_rect_raw/compressed/parameter_descriptions] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,079: -PUB [/camera/depth/image_rect_raw/compressed/parameter_updates] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,079: -PUB [/camera/depth/image_rect_raw] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,079: -PUB [/camera/depth/image_rect_raw/theora] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,079: -PUB [/camera/depth/image_rect_raw/theora/parameter_descriptions] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,080: -PUB [/camera/depth/image_rect_raw/theora/parameter_updates] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,080: -PUB [/camera/depth/camera_info] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,080: -PUB [/camera/depth/metadata] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,080: -PUB [/camera/color/image_raw/compressedDepth] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,080: -PUB [/camera/color/image_raw/compressedDepth/parameter_descriptions] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,081: -PUB [/camera/color/image_raw/compressedDepth/parameter_updates] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,081: -PUB [/camera/color/image_raw/compressed] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,081: -PUB [/camera/color/image_raw/compressed/parameter_descriptions] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,082: -PUB [/camera/color/image_raw/compressed/parameter_updates] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,082: -PUB [/camera/color/image_raw] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,082: -PUB [/camera/color/image_raw/theora] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,082: publisherUpdate[/camera/realsense2_camera_manager/bond] -> http://uav1-Default-string:38655/ ['http://uav1-Default-string:36117/']: sec=0.01, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2024-11-17 14:45:34,083: -PUB [/camera/color/image_raw/theora/parameter_descriptions] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,083: -PUB [/camera/color/image_raw/theora/parameter_updates] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.threadpool][ERROR] 2024-11-17 14:45:34,084: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2024-11-17 14:45:34,084: publisherUpdate[/camera/realsense2_camera_manager/bond] -> http://uav1-Default-string:36117/ ['http://uav1-Default-string:36117/']
+[rosmaster.master][INFO] 2024-11-17 14:45:34,084: publisherUpdate[/camera/realsense2_camera_manager/bond] -> http://uav1-Default-string:36117/ ['http://uav1-Default-string:36117/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-11-17 14:45:34,085: -PUB [/camera/color/camera_info] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,085: -PUB [/camera/color/metadata] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,085: -PUB [/camera/aligned_depth_to_color/image_raw/compressedDepth] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,086: -PUB [/camera/aligned_depth_to_color/image_raw/compressedDepth/parameter_descriptions] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,086: -PUB [/camera/aligned_depth_to_color/image_raw/compressedDepth/parameter_updates] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,086: -PUB [/camera/aligned_depth_to_color/image_raw/compressed] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,087: -PUB [/camera/aligned_depth_to_color/image_raw/compressed/parameter_descriptions] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,087: -PUB [/camera/aligned_depth_to_color/image_raw/compressed/parameter_updates] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,087: -PUB [/camera/aligned_depth_to_color/image_raw] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,087: -PUB [/camera/aligned_depth_to_color/image_raw/theora] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,088: -PUB [/camera/aligned_depth_to_color/image_raw/theora/parameter_descriptions] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,088: -PUB [/camera/aligned_depth_to_color/image_raw/theora/parameter_updates] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,088: -PUB [/camera/aligned_depth_to_color/camera_info] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,088: -PUB [/camera/extrinsics/depth_to_color] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,089: -PUB [/camera/stereo_module/auto_exposure_roi/parameter_descriptions] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,089: -PUB [/camera/stereo_module/auto_exposure_roi/parameter_updates] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,089: -PUB [/camera/rgb_camera/auto_exposure_roi/parameter_descriptions] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,089: -PUB [/camera/rgb_camera/auto_exposure_roi/parameter_updates] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,090: -SUB [/camera/realsense2_camera_manager/bond] /camera/realsense2_camera_manager http://uav1-Default-string:38655/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,090: -SERVICE [/camera/realsense2_camera_manager/get_loggers] /camera/realsense2_camera_manager rosrpc://uav1-Default-string:44677
+[rosmaster.master][INFO] 2024-11-17 14:45:34,090: -SERVICE [/camera/realsense2_camera_manager/set_logger_level] /camera/realsense2_camera_manager rosrpc://uav1-Default-string:44677
+[rosmaster.master][INFO] 2024-11-17 14:45:34,091: -SERVICE [/camera/realsense2_camera_manager/load_nodelet] /camera/realsense2_camera_manager rosrpc://uav1-Default-string:44677
+[rosmaster.master][INFO] 2024-11-17 14:45:34,091: -SERVICE [/camera/realsense2_camera_manager/unload_nodelet] /camera/realsense2_camera_manager rosrpc://uav1-Default-string:44677
+[rosmaster.master][INFO] 2024-11-17 14:45:34,091: -SERVICE [/camera/realsense2_camera_manager/list] /camera/realsense2_camera_manager rosrpc://uav1-Default-string:44677
+[rosmaster.master][INFO] 2024-11-17 14:45:34,092: -SERVICE [/camera/enable] /camera/realsense2_camera_manager rosrpc://uav1-Default-string:44677
+[rosmaster.master][INFO] 2024-11-17 14:45:34,092: -SERVICE [/camera/realsense2_camera/reset] /camera/realsense2_camera_manager rosrpc://uav1-Default-string:44677
+[rosmaster.master][INFO] 2024-11-17 14:45:34,092: -SERVICE [/camera/stereo_module/set_parameters] /camera/realsense2_camera_manager rosrpc://uav1-Default-string:44677
+[rosmaster.master][INFO] 2024-11-17 14:45:34,093: -SERVICE [/camera/rgb_camera/set_parameters] /camera/realsense2_camera_manager rosrpc://uav1-Default-string:44677
+[rosmaster.master][INFO] 2024-11-17 14:45:34,093: -SERVICE [/camera/motion_module/set_parameters] /camera/realsense2_camera_manager rosrpc://uav1-Default-string:44677
+[rosmaster.master][INFO] 2024-11-17 14:45:34,093: -SERVICE [/camera/align_to_color/set_parameters] /camera/realsense2_camera_manager rosrpc://uav1-Default-string:44677
+[rosmaster.master][INFO] 2024-11-17 14:45:34,093: -SERVICE [/camera/depth/image_rect_raw/compressedDepth/set_parameters] /camera/realsense2_camera_manager rosrpc://uav1-Default-string:44677
+[rosmaster.master][INFO] 2024-11-17 14:45:34,094: -SERVICE [/camera/depth/image_rect_raw/compressed/set_parameters] /camera/realsense2_camera_manager rosrpc://uav1-Default-string:44677
+[rosmaster.master][INFO] 2024-11-17 14:45:34,094: -SERVICE [/camera/depth/image_rect_raw/theora/set_parameters] /camera/realsense2_camera_manager rosrpc://uav1-Default-string:44677
+[rosmaster.master][INFO] 2024-11-17 14:45:34,094: -SERVICE [/camera/color/image_raw/compressedDepth/set_parameters] /camera/realsense2_camera_manager rosrpc://uav1-Default-string:44677
+[rosmaster.master][INFO] 2024-11-17 14:45:34,094: -SERVICE [/camera/color/image_raw/compressed/set_parameters] /camera/realsense2_camera_manager rosrpc://uav1-Default-string:44677
+[rosmaster.master][INFO] 2024-11-17 14:45:34,095: -SERVICE [/camera/color/image_raw/theora/set_parameters] /camera/realsense2_camera_manager rosrpc://uav1-Default-string:44677
+[rosmaster.master][INFO] 2024-11-17 14:45:34,095: -SERVICE [/camera/aligned_depth_to_color/image_raw/compressedDepth/set_parameters] /camera/realsense2_camera_manager rosrpc://uav1-Default-string:44677
+[rosmaster.master][INFO] 2024-11-17 14:45:34,095: -SERVICE [/camera/aligned_depth_to_color/image_raw/compressed/set_parameters] /camera/realsense2_camera_manager rosrpc://uav1-Default-string:44677
+[rosmaster.master][INFO] 2024-11-17 14:45:34,095: -SERVICE [/camera/aligned_depth_to_color/image_raw/theora/set_parameters] /camera/realsense2_camera_manager rosrpc://uav1-Default-string:44677
+[rosmaster.master][INFO] 2024-11-17 14:45:34,095: -SERVICE [/camera/stereo_module/auto_exposure_roi/set_parameters] /camera/realsense2_camera_manager rosrpc://uav1-Default-string:44677
+[rosmaster.master][INFO] 2024-11-17 14:45:34,096: -SERVICE [/camera/rgb_camera/auto_exposure_roi/set_parameters] /camera/realsense2_camera_manager rosrpc://uav1-Default-string:44677
+[rosmaster.master][INFO] 2024-11-17 14:45:34,096: -SERVICE [/camera/realsense2_camera/device_info] /camera/realsense2_camera_manager rosrpc://uav1-Default-string:44677
+[rosmaster.master][INFO] 2024-11-17 14:45:34,096: -CACHEDPARAM [/camera/realsense2_camera_manager/diagnostic_period] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:34,097: -CACHEDPARAM [/rosout_disable_topics_generation] by /camera/realsense2_camera_manager
+[rosmaster.master][INFO] 2024-11-17 14:45:34,285: -PUB [/rosout] /camera/realsense2_camera http://uav1-Default-string:36117/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,285: publisherUpdate[/rosout] -> http://uav1-Default-string:44401/ ['http://uav1-Default-string:42659/']
+[rosmaster.master][INFO] 2024-11-17 14:45:34,286: -PUB [/camera/realsense2_camera_manager/bond] /camera/realsense2_camera http://uav1-Default-string:36117/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,286: publisherUpdate[/rosout] -> http://uav1-Default-string:44401/ ['http://uav1-Default-string:42659/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-11-17 14:45:34,286: publisherUpdate[/camera/realsense2_camera_manager/bond] -> http://uav1-Default-string:36117/ []
+[rosmaster.master][INFO] 2024-11-17 14:45:34,286: -SUB [/camera/realsense2_camera_manager/bond] /camera/realsense2_camera http://uav1-Default-string:36117/
+[rosmaster.master][INFO] 2024-11-17 14:45:34,287: -SERVICE [/camera/realsense2_camera/get_loggers] /camera/realsense2_camera rosrpc://uav1-Default-string:49399
+[rosmaster.master][INFO] 2024-11-17 14:45:34,287: -SERVICE [/camera/realsense2_camera/set_logger_level] /camera/realsense2_camera rosrpc://uav1-Default-string:49399
+[rosmaster.master][INFO] 2024-11-17 14:45:34,287: -CACHEDPARAM [/rosout_disable_topics_generation] by /camera/realsense2_camera
+[rosmaster.master][INFO] 2024-11-17 14:45:34,295: publisherUpdate[/camera/realsense2_camera_manager/bond] -> http://uav1-Default-string:36117/ []: sec=0.01, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2024-11-17 14:45:34,296: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1095, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 898, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 860, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 837, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2024-11-17 14:45:36,263: -PUB [/rosout] /vins_to_mavros http://uav1-Default-string:42659/
+[rosmaster.master][INFO] 2024-11-17 14:45:36,264: -PUB [/mavros/vision_pose/pose] /vins_to_mavros http://uav1-Default-string:42659/
+[rosmaster.master][INFO] 2024-11-17 14:45:36,264: -PUB [/viobot/camera_pose] /vins_to_mavros http://uav1-Default-string:42659/
+[rosmaster.master][INFO] 2024-11-17 14:45:36,265: -PUB [/viobot/stereo2_ctrl] /vins_to_mavros http://uav1-Default-string:42659/
+[rosmaster.master][INFO] 2024-11-17 14:45:36,265: -SUB [/viobot/pr_loop/odometry_rect] /vins_to_mavros http://uav1-Default-string:42659/
+[rosmaster.master][INFO] 2024-11-17 14:45:36,265: publisherUpdate[/rosout] -> http://uav1-Default-string:44401/ []
+[rosmaster.master][INFO] 2024-11-17 14:45:36,265: -SUB [/mavros/distance_sensor/hrlv_ez4_pub] /vins_to_mavros http://uav1-Default-string:42659/
+[rosmaster.master][INFO] 2024-11-17 14:45:36,266: publisherUpdate[/rosout] -> http://uav1-Default-string:44401/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2024-11-17 14:45:36,266: -SERVICE [/vins_to_mavros/get_loggers] /vins_to_mavros rosrpc://uav1-Default-string:35187
+[rosmaster.master][INFO] 2024-11-17 14:45:36,266: -SERVICE [/vins_to_mavros/set_logger_level] /vins_to_mavros rosrpc://uav1-Default-string:35187
+[rosmaster.master][INFO] 2024-11-17 14:45:36,267: -CACHEDPARAM [/rosout_disable_topics_generation] by /vins_to_mavros
+[rosmaster.master][INFO] 2024-11-17 14:45:36,466: -PUB [/rosout_agg] /rosout http://uav1-Default-string:44401/
+[rosmaster.master][INFO] 2024-11-17 14:45:36,467: -SUB [/rosout] /rosout http://uav1-Default-string:44401/
+[rosmaster.master][INFO] 2024-11-17 14:45:36,467: -SERVICE [/rosout/get_loggers] /rosout rosrpc://uav1-Default-string:33323
+[rosmaster.master][INFO] 2024-11-17 14:45:36,467: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://uav1-Default-string:33323
+[rosmaster.master][INFO] 2024-11-17 14:45:36,468: -CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.main][INFO] 2024-11-17 14:45:36,535: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2024-11-17 14:45:36,535: stopping master...
+[rospy.core][INFO] 2024-11-17 14:45:36,536: signal_shutdown [atexit]

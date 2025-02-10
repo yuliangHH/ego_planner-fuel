@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target cxr_egoctrl_v1[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/cxr_egoctrl_v1.dir/src/DataManager/data_ros_output.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable /home/uav1/fuel_ws/devel/.private/cxr_egoctrl_v1/lib/cxr_egoctrl_v1/cxr_egoctrl_v1[0m
+[100%] Built target cxr_egoctrl_v1

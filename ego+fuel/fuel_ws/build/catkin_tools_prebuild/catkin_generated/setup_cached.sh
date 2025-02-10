@@ -1,0 +1,16 @@
+#!/usr/bin/env sh
+# generated from catkin/python/catkin/environment_cache.py
+
+# based on a snapshot of the environment before and after calling the setup script
+# it emulates the modifications of the setup script without recurring computations
+
+# new environment variables
+
+# modified environment variables
+export CMAKE_PREFIX_PATH="/home/uav1/fuel_ws/devel/.private/catkin_tools_prebuild:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH='/home/uav1/viobot_ws/devel/lib:/home/uav1/catkin_ws/devel/lib:/opt/ros/melodic/lib:/usr/local/lib'
+export PKG_CONFIG_PATH='/home/uav1/viobot_ws/devel/lib/pkgconfig:/home/uav1/catkin_ws/devel/lib/pkgconfig:/opt/ros/melodic/lib/pkgconfig'
+export PWD='/home/uav1/fuel_ws/build/catkin_tools_prebuild'
+export PYTHONPATH='/home/uav1/viobot_ws/devel/lib/python2.7/dist-packages:/home/uav1/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/uav1/fuel_ws/devel/.private/catkin_tools_prebuild/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH='/home/uav1/fuel_ws/build/catkin_tools_prebuild:/home/uav1/fuel_ws/src/exploration/FUEL/uav_simulator/Utils/cmake_utils:/home/uav1/fuel_ws/src/exploration/cxr_ego_ctrl/src/cxr_egoctrl_v1:/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/utils/lkh_tsp_solver:/home/uav1/fuel_ws/src/exploration/FUEL/uav_simulator/map_generator:/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/plan_env:/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/bspline:/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/path_searching:/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/active_perception:/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/bspline_opt:/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/poly_traj:/home/uav1/fuel_ws/src/exploration/FUEL/uav_simulator/Utils/pose_utils:/home/uav1/fuel_ws/src/exploration/FUEL/uav_simulator/Utils/odom_visualization:/home/uav1/fuel_ws/src/exploration/FUEL/uav_simulator/Utils/quadrotor_msgs:/home/uav1/fuel_ws/src/exploration/FUEL/uav_simulator/local_sensing:/home/uav1/fuel_ws/src/exploration/FUEL/uav_simulator/Utils/multi_map_server:/home/uav1/fuel_ws/src/exploration/FUEL/uav_simulator/poscmd_2_odom:/home/uav1/fuel_ws/src/realsense-ros/realsense2_camera:/home/uav1/fuel_ws/src/realsense-ros/realsense2_description:/home/uav1/fuel_ws/src/exploration/FUEL/uav_simulator/Utils/rviz_plugins:/home/uav1/fuel_ws/src/exploration/FUEL/uav_simulator/so3_control:/home/uav1/fuel_ws/src/exploration/FUEL/uav_simulator/so3_disturbance_generator:/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/traj_utils:/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/plan_manage:/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/exploration_manager:/home/uav1/fuel_ws/src/exploration/FUEL/uav_simulator/Utils/uav_utils:/home/uav1/fuel_ws/src/exploration/FUEL/uav_simulator/so3_quadrotor_simulator:/home/uav1/fuel_ws/src/exploration/FUEL/uav_simulator/Utils/waypoint_generator:/home/uav1/viobot_ws/src:/home/uav1/catkin_ws/src/uwb:/home/uav1/catkin_ws/src/uwb_common:/home/uav1/catkin_ws/src/uwb_wrapper:/opt/ros/melodic/share'

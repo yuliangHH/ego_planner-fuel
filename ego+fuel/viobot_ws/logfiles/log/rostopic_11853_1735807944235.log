@@ -1,0 +1,16 @@
+[rospy.client][INFO] 2025-01-02 16:52:24,261: init_node, name[/rostopic_11853_1735807944235], pid[11853]
+[xmlrpc][INFO] 2025-01-02 16:52:24,262: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2025-01-02 16:52:24,262: Started XML-RPC server [http://uav1-Default-string:44909/]
+[rospy.init][INFO] 2025-01-02 16:52:24,262: ROS Slave URI: [http://uav1-Default-string:44909/]
+[rospy.impl.masterslave][INFO] 2025-01-02 16:52:24,262: _ready: http://uav1-Default-string:44909/
+[rospy.registration][INFO] 2025-01-02 16:52:24,262: Registering with master node http://192.168.1.100:11311
+[xmlrpc][INFO] 2025-01-02 16:52:24,263: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2025-01-02 16:52:24,362: registered with master
+[rospy.rosout][INFO] 2025-01-02 16:52:24,363: initializing /rosout core topic
+[rospy.rosout][INFO] 2025-01-02 16:52:24,365: connected to core topic /rosout
+[rospy.simtime][INFO] 2025-01-02 16:52:24,367: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2025-01-02 16:52:24,527: topic[/mavros/local_position/odom] adding connection to [http://uav1-Default-string:39983/], count 0
+[rospy.internal][INFO] 2025-01-02 16:52:24,575: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2025-01-02 17:01:36,059: topic[/mavros/local_position/odom] removing connection to http://uav1-Default-string:39983/
+[rospy.internal][INFO] 2025-01-02 17:01:36,528: topic[/mavros/local_position/odom] adding connection to [http://uav1-Default-string:36121/], count 0
+[rospy.internal][INFO] 2025-01-02 17:01:56,037: topic[/mavros/local_position/odom] removing connection to http://uav1-Default-string:36121/

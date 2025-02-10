@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/uav1/fuel_ws/devel/.private/cxr_egoctrl_v1/setup.sh

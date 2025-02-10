@@ -1,0 +1,31 @@
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/bspline_opt/src/bspline_optimizer.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::BsplineOptimizer::optimize()[m[K’:
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/bspline_opt/src/bspline_optimizer.cpp:226:19:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kresult[m[K’ [[01;35m[K-Wunused-variable[m[K]
+     nlopt::result [01;35m[Kresult[m[K = opt.optimize(q, final_cost);
+                   [01;35m[K^~~~~~[m[K
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/bspline_opt/src/bspline_optimizer.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::BsplineOptimizer::calcSmoothnessCost(const std::vector<Eigen::Matrix<double, 3, 1> >&, const double&, double&, std::vector<Eigen::Matrix<double, 3, 1> >&, double&)[m[K’:
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/bspline_opt/src/bspline_optimizer.cpp:263:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < q.size() - 3[m[K; i++) {
+                   [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/bspline_opt/src/bspline_optimizer.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::BsplineOptimizer::calcDistanceCost(const std::vector<Eigen::Matrix<double, 3, 1> >&, double&, std::vector<Eigen::Matrix<double, 3, 1> >&)[m[K’:
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/bspline_opt/src/bspline_optimizer.cpp:292:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < q.size()[m[K; i++) {
+                   [01;35m[K~~^~~~~~~~~~[m[K
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/bspline_opt/src/bspline_optimizer.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::BsplineOptimizer::calcFeasibilityCost(const std::vector<Eigen::Matrix<double, 3, 1> >&, const double&, double&, std::vector<Eigen::Matrix<double, 3, 1> >&, double&)[m[K’:
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/bspline_opt/src/bspline_optimizer.cpp:320:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < q.size() - 1[m[K; ++i) {
+                   [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/bspline_opt/src/bspline_optimizer.cpp:338:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < q.size() - 2[m[K; ++i) {
+                   [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/bspline_opt/src/bspline_optimizer.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::BsplineOptimizer::calcEndCost(const std::vector<Eigen::Matrix<double, 3, 1> >&, const double&, double&, std::vector<Eigen::Matrix<double, 3, 1> >&, double&)[m[K’:
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/bspline_opt/src/bspline_optimizer.cpp:398:32:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = q.size() - 3; [01;35m[Ki < q.size()[m[K; ++i)
+                              [01;35m[K~~^~~~~~~~~~[m[K
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/bspline_opt/src/bspline_optimizer.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::BsplineOptimizer::calcWaypointsCost(const std::vector<Eigen::Matrix<double, 3, 1> >&, double&, std::vector<Eigen::Matrix<double, 3, 1> >&)[m[K’:
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/bspline_opt/src/bspline_optimizer.cpp:442:21:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+   for (int i = 0; [01;35m[Ki < waypoints_.size()[m[K; ++i) {
+                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/bspline_opt/src/bspline_optimizer.cpp:[m[K In member function ‘[01m[Kvoid fast_planner::BsplineOptimizer::calcViewCost(const std::vector<Eigen::Matrix<double, 3, 1> >&, double&, std::vector<Eigen::Matrix<double, 3, 1> >&)[m[K’:
+[01m[K/home/uav1/fuel_ws/src/exploration/FUEL/fuel_planner/bspline_opt/src/bspline_optimizer.cpp:492:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knorm_dn[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   double [01;35m[Knorm_dn[m[K = dn.norm();
+          [01;35m[K^~~~~~~[m[K

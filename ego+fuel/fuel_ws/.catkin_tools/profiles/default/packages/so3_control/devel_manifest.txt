@@ -1,0 +1,7 @@
+exploration/FUEL/uav_simulator/so3_control
+/home/uav1/fuel_ws/devel/.private/so3_control/cmake.lock /home/uav1/fuel_ws/devel/./cmake.lock
+/home/uav1/fuel_ws/devel/.private/so3_control/lib/libso3_control_nodelet.so /home/uav1/fuel_ws/devel/lib/libso3_control_nodelet.so
+/home/uav1/fuel_ws/devel/.private/so3_control/lib/libSO3Control.so /home/uav1/fuel_ws/devel/lib/libSO3Control.so
+/home/uav1/fuel_ws/devel/.private/so3_control/lib/pkgconfig/so3_control.pc /home/uav1/fuel_ws/devel/lib/pkgconfig/so3_control.pc
+/home/uav1/fuel_ws/devel/.private/so3_control/share/so3_control/cmake/so3_controlConfig.cmake /home/uav1/fuel_ws/devel/share/so3_control/cmake/so3_controlConfig.cmake
+/home/uav1/fuel_ws/devel/.private/so3_control/share/so3_control/cmake/so3_controlConfig-version.cmake /home/uav1/fuel_ws/devel/share/so3_control/cmake/so3_controlConfig-version.cmake

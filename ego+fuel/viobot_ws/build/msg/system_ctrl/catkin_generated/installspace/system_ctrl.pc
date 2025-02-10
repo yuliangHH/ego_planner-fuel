@@ -1,0 +1,8 @@
+prefix=/home/uav1/viobot_ws/install
+
+Name: system_ctrl
+Description: Description of system_ctrl
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rosmsg message_runtime

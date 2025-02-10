@@ -1,0 +1,6 @@
+devel_space: /home/uav1/fuel_ws/devel
+install: false
+install_space: /home/uav1/fuel_ws/install
+profile: default
+source_space: /home/uav1/fuel_ws/src
+workspace: /home/uav1/fuel_ws
